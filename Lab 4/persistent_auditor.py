@@ -1,7 +1,7 @@
 # GLOBAL CONSTANTS
 max_capacity = 500
 tax_rate = 0.1
-inventory_file = "lab 4/inventory.txt"
+inventory_file = "inventory.txt"
 
 
 def get_valid_input():

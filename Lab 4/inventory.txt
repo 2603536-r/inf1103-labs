@@ -6,9 +6,11 @@ Current Orders:
 
 1003, USB Cable, 3
 
-New Orders:
-
 1004, Laptop Stand, 4
 
 1005, Bluetooth Headphone, 6
+
+New Orders:
+
+1006, Power Cable, 7
 
