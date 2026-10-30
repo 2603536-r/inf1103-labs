@@ -1,0 +1,58 @@
+[
+    {
+        "product_id": "P001",
+        "name": "Laptop",
+        "price": 1200.0,
+        "stock": 15,
+        "type": "physical",
+        "weight": 2.0
+    },
+    {
+        "product_id": "P002",
+        "name": "Mouse",
+        "price": 25.0,
+        "stock": 40,
+        "type": "physical",
+        "weight": 0.1
+    },
+    {
+        "product_id": "P003",
+        "name": "Keyboard",
+        "price": 45.0,
+        "stock": 20,
+        "type": "physical",
+        "weight": 0.8
+    },
+    {
+        "product_id": "P004",
+        "name": "Headphone",
+        "price": 30.0,
+        "stock": 25,
+        "type": "physical",
+        "weight": 0.3
+    },
+    {
+        "product_id": "P005",
+        "name": "Laptop Stand",
+        "price": 50.0,
+        "stock": 100,
+        "type": "physical",
+        "weight": 1.2
+    },
+    {
+        "product_id": "P006",
+        "name": "Antivirus Software",
+        "price": 70.0,
+        "stock": 200,
+        "type": "digital",
+        "download_size": 250.0
+    },
+    {
+        "product_id": "P007",
+        "name": "Screen protector",
+        "price": 15.0,
+        "stock": 100,
+        "type": "physical",
+        "weight": 0.9
+    }
+]
