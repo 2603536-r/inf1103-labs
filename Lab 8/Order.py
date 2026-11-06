@@ -25,7 +25,7 @@ class Order:
         return False
 
     def get_order_lines(self) -> list[OrderLine]:
-        return list(self.__order_lines)   # copy, so callers can't edit our parts
+        return list(self.__order_lines)
 
     def calculate_total(self) -> float:
         return sum(line.calculate_subtotal() for line in self.__order_lines)

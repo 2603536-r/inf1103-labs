@@ -11,8 +11,8 @@ class InventoryApp:
 
     def __init__(self):
         self.__file = File()
-        self.__inventory_data = self.__file.load_inventory()  # dicts from the JSON file
-        self.__inventory = Inventory()                        # Product objects added this session
+        self.__inventory_data = self.__file.load_inventory()  
+        self.__inventory = Inventory()                        
         self.__running = False
         self.__actions = {
             "1": self.__display_inventory,
@@ -33,7 +33,6 @@ class InventoryApp:
             else:
                 action()
 
-    # ---------- helpers ----------
     def __show_menu(self):
         print("\n===== Inventory Manager =====")
         print("1. Display inventory database")
@@ -70,7 +69,6 @@ class InventoryApp:
         if isinstance(product, CanBeShipped):
             print(f"Shipping cost: ${product.calculate_shipping_cost():.2f}")
 
-    # ---------- menu actions ----------
     def __display_inventory(self):
         print("--- Saved inventory (JSON file) ---")
         for item in self.__inventory_data:

@@ -10,7 +10,7 @@ class Product(ABC):
         self.__name: str = name
         self.__price: float = price
         self.__stock: int = stock
-        self.__supplier: Supplier = supplier   # association: Product -> Supplier
+        self.__supplier: Supplier = supplier
 
     def update_stock(self, quantity: int) -> None:
         self.__stock = quantity

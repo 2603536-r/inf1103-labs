@@ -5,7 +5,7 @@ class OrderLine:
     """Part of an Order (composition). Only Order should create these."""
 
     def __init__(self, product: Product, quantity: int) -> None:
-        self.__product: Product = product      # association: OrderLine -> Product
+        self.__product: Product = product
         self.__quantity: int = quantity
 
     def get_product(self) -> Product:
